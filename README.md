@@ -4,7 +4,7 @@
 This project is to predict median house prices for different postcodes in the UK.
 
 ## Challenge
-Since the distribution of median house prices is affected by geographical location and there is a huge gap between house prices in dataset. For example, there may be particularly high house prices in an area with low house prices.  This will cause serious class imbalance.
+Since the distribution of median house prices is affected by geographical location and there is a huge gap between house prices in dataset. For example, there may be particularly high house prices in an area with low house prices.  That will cause serious class imbalance problem.
 
 ## Dataset
 Three `.csv` files, `postcodes_labelled.csv`, `district_data.csv` and `sector_data.csv` deal with information indexed by postcode, or postcode sector.
@@ -43,7 +43,7 @@ The `district_data.csv` file contains information on the number of pets in each 
 ## Data preprocessing
 This project used geographical & bin splitting to generate datasets. Applying data resampling method to address class imbalance problem.
 
-## Model selection
+## Model performance
 | **MODEL** | **RMSE** | **R^2** |
 | :------------------ | :---: | :---: |
 | *XGBoost* | 405653 | 0.8193 |
