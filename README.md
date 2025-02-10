@@ -1,7 +1,7 @@
 # median-house-price
 
 ## Project introduction
-This project is to predicting median house prices for different postcodes in the UK.
+This project is to predict median house prices for different postcodes in the UK.
 
 ## Challenge
 Since the distribution of median house prices is affected by geographical location and there is a huge gap between house prices in dataset. For example, there may be particularly high house prices in an area with low house prices.  This will cause serious class imbalance.
@@ -45,6 +45,6 @@ This project used geographical & bin splitting to generate datasets. Applying da
 
 ## Model selection
 | **MODEL** | **RMSE** | **R^2** |
-| :------------------ | :---: |
+| :------------------ | :---: | :---: |
 | *XGBoost* | 405653 | 0.8193 |
 | *RandomForest* | 402137 | 0.8224 |
